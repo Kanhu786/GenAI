@@ -20,3 +20,5 @@ if uploaded_file is not None:
     if st.button('Response'):
         response = model.generate_content([user_prompt, img])
         st.write(response.text)
+    # genAI streamlit App
+    
